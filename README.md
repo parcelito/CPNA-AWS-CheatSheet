@@ -46,7 +46,7 @@ aws configure --profile
 Modificar el archivo:
 <table><tr><td>config</td></tr></table>
 Ejemplo:
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 ```bash
 
