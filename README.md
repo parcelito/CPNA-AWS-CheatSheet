@@ -8,15 +8,13 @@ wget https://releases.hashicorp.com/terraform/1.1.9/terraform_1.1.9_linux_amd64.
 ```bash
 unzip terraform_1.1.9_linux_amd64.zip
 ```
-
 ```bash
 mv terraform /usr/local/bin/
 ```
-
+## Despliegue Terraform Linux
 ```bash
-
+terraform init
 ```
-
 ```bash
-
+terraform apply
 ```
