@@ -35,8 +35,10 @@ AWS Secret Access Key
 Default region name
 Default output format
 ```
-Ejemplo:
-![alt text](image.png)
+<details>
+  <summary>Ejemplo:</summary>
+  <kbd>![alt text](image.png)</kbd>
+</details>
 ## Creación de perfiles con nombre
 ### Opción 1 - AWS CLI
 ```bash
@@ -46,34 +48,36 @@ aws configure --profile
 Modificar el archivo:
 <table><tr><td>config</td></tr></table>
 
-Ejemplo:
-![alt text](image-1.png)
+<details>
+  <summary>Ejemplo:</summary>
+  <kbd>![alt text](image-1.png)</kbd>
+</details>
 ## Estructura comandos AWS CLI
 ```bash
 aws <comando o servicio> <Sub-Comando> [Opciones y parámetros]
 ```
-Ejemplo:
-![alt text](image-2.png)
+<details>
+  <summary>Ejemplo:</summary>
+  <kbd>![alt text](image-2.png)</kbd>
+</details>
 ## El whoami de AWS
 ### Opción 1
 ```bash
 aws sts get-caller-identity
 ```
-Ejemplo:
-![alt text](image-3.png)
+<details>
+  <summary>Ejemplo:</summary>
+  <kbd>![alt text](image-3.png)</kbd>
+</details>
 ### Opción 2 
 > Requiere privilegios iam:GetUser
 ```bash
 aws iam get-user
 ```
-Ejemplo:
-![alt text](image-4.png)
 
 <details>
-  <summary>Ejemplo</summary>
-
+  <summary>Ejemplo:</summary>
   <kbd>![alt text](image-4.png)</kbd>
-
 </details>
 
 
