@@ -13,7 +13,8 @@ mv terraform /usr/local/bin/
 ```
 ## Despliegue Terraform Linux
 
-Todos nuestros laboratorios requieren un usuario administrador para poder desplegar los diferentes componentes
+> [!Nota]
+> Todos nuestros laboratorios requieren un usuario administrador para poder desplegar los diferentes componentes
 ```bash
 terraform init
 ```
@@ -36,6 +37,12 @@ Default output format
 ```
 Ejemplo:
 ![alt text](image.png)
+## Creación de perfiles con nombre
+### Opción 1 - AWS CLI
+```bash
+aws configure --profile
+```
+### Opción 2 - Modificando archivos de configuración
 ```bash
 
 ```
@@ -99,6 +106,14 @@ Ejemplo:
 ```bash
 
 ```
-```bash
 
+```markdown
+<details>
+  <summary>Markdown</summary>
+
+-  <kbd>[Markdown Editor](https://binarytree.dev/me)</kbd>
+-  <kbd>[Table Of Content](https://binarytree.dev/toc)</kbd>
+-  <kbd>[Markdown Table Generator](https://binarytree.dev/md_table_generator)</kbd>
+
+</details>
 ```
