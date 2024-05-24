@@ -107,34 +107,3 @@ aws configure --profile
 
 ```
 
-<details>
-  <summary>Desplegable</summary>
-
-- <kbd>
-
-## Instalación Terraform Linux
-```bash
-wget https://releases.hashicorp.com/terraform/1.1.9/terraform_1.1.9_linux_amd64.zip
-```
-```bash
-unzip terraform_1.1.9_linux_amd64.zip
-```
-```bash
-mv terraform /usr/local/bin/
-```
-</kbd>
--  <kbd>
-
-## Despliegue Terraform Linux
-
-> [!Nota]
-> Todos nuestros laboratorios requieren un usuario administrador para poder desplegar los diferentes componentes
-```bash
-terraform init
-```
-```bash
-terraform apply
-```
-</kbd>
-
-</details>
