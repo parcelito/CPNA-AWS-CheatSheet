@@ -12,6 +12,8 @@ unzip terraform_1.1.9_linux_amd64.zip
 mv terraform /usr/local/bin/
 ```
 ## Despliegue Terraform Linux
+
+Todos nuestros laboratorios requieren un usuario administrador para poder desplegar los diferentes componentes
 ```bash
 terraform init
 ```
