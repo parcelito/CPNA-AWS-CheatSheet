@@ -22,5 +22,82 @@ terraform apply
 ```
 
 # Comandos CLI AWS
-
 ## Autenticación con AWS CLI
+
+```bash
+aws configure
+```
+Introducir valores para los campos requeridos.
+```bash
+AWS Access Key ID
+AWS Secret Access Key
+Default region name
+Default output format
+```
+![alt text](image.png)
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
