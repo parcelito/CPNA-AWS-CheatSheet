@@ -109,7 +109,7 @@ aws iam list-users
 
 </details>
 
-### Enumerando un usuario especifico de la cuenta AWS
+### Enumerando todos los grupos a los que pertenece un usuario especifico 
 
 ```bash
 aws iam list-groups-for-user --user-name Usuario
@@ -121,9 +121,17 @@ aws iam list-groups-for-user --user-name Usuario
 
 </details>
 
+### Enumerando información de las llaves públicas SSH de un usuario especifico
 ```bash
-
+aws iam list-ssh-public-keys --user-name Usuario
 ```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-7.png)</kbd>
+
+</details>
+
 ```bash
 
 ```
