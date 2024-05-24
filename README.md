@@ -83,7 +83,7 @@ aws sts get-caller-identity
 
 ### Opción 2 
 > [!Note]
-> Requiere privilegios iam:GetUser
+> Requiere privilegios <table><tr><td>iam:GetUser</td></tr></table>
 ```bash
 aws iam get-user
 ```
