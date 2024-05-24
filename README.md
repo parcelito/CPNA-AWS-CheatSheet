@@ -68,6 +68,15 @@ aws iam get-user
 ```
 Ejemplo:
 ![alt text](image-4.png)
+
+<details>
+  <summary>Ejemplo</summary>
+
+-  <kbd>![alt text](image-4.png)</kbd>
+
+</details>
+
+
 ```bash
 
 ```
