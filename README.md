@@ -110,7 +110,7 @@ aws configure --profile
 <details>
   <summary>Markdown</summary>
 
--  <kbd>
+<kbd>
 ## Instalación Terraform Linux
 ```bash
 wget https://releases.hashicorp.com/terraform/1.1.9/terraform_1.1.9_linux_amd64.zip
