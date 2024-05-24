@@ -98,12 +98,29 @@ aws iam get-user
 
 # Enumeración manual de IAM
 ## Enumerando usuarios
+### Enumerando todos los usuarios exitentes en la cuenta AWS 
 ```bash
 aws iam list-users
 ```
-```bash
+<details>
+  <summary>Ejemplo:</summary>
 
+  <kbd>![alt text](image-5.png)</kbd>
+
+</details>
+
+### Enumerando un usuario especifico de la cuenta AWS
+
+```bash
+aws iam list-groups-for-user --user-name Usuario
 ```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-6.png)</kbd>
+
+</details>
+
 ```bash
 
 ```
