@@ -142,6 +142,17 @@ aws iam get-ssh-public-key --user-name Usuario -- encoding PEM --ssh-public-key-
 
 </details>
 
+### Enumerando certificados de firma asociados a un usuario especifico
+```bash
+aws iam list-signing-certificates --user-name Usuario
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-9.png)</kbd>
+
+</details>
+
 ```bash
 
 ```
@@ -181,7 +192,37 @@ aws iam get-ssh-public-key --user-name Usuario -- encoding PEM --ssh-public-key-
 ```bash
 
 ```
-```bash
+<details>
+  <summary>Ejemplo:</summary>
 
-```
+  <kbd></kbd>
 
+</details>
+
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
