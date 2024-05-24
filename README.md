@@ -136,8 +136,5 @@ terraform init
 terraform apply
 ```
 </kbd>
--  <kbd>
-aaa
-</kbd>
 
 </details>
