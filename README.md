@@ -37,7 +37,9 @@ Default output format
 ```
 <details>
   <summary>Ejemplo:</summary>
+  
   <kbd>![alt text](image.png)</kbd>
+
 </details>
 
 ## Creación de perfiles con nombre
@@ -51,7 +53,9 @@ Modificar el archivo:
 
 <details>
   <summary>Ejemplo:</summary>
+
   <kbd>![alt text](image-1.png)</kbd>
+
 </details>
 
 ## Estructura comandos AWS CLI
@@ -60,7 +64,9 @@ aws <comando o servicio> <Sub-Comando> [Opciones y parámetros]
 ```
 <details>
   <summary>Ejemplo:</summary>
+
   <kbd>![alt text](image-2.png)</kbd>
+
 </details>
 
 ## El whoami de AWS
@@ -70,7 +76,9 @@ aws sts get-caller-identity
 ```
 <details>
   <summary>Ejemplo:</summary>
+
   <kbd>![alt text](image-3.png)</kbd>
+
 </details>
 
 ### Opción 2 
