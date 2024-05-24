@@ -34,6 +34,7 @@ AWS Secret Access Key
 Default region name
 Default output format
 ```
+Ejemplo:
 ![alt text](image.png)
 ```bash
 
