@@ -133,8 +133,15 @@ aws iam list-ssh-public-keys --user-name Usuario
 </details>
 
 ```bash
-
+aws iam get-ssh-public-key --user-name Usuario -- encoding PEM --ssh-public-key-id ID
 ```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-8.png)</kbd>
+
+</details>
+
 ```bash
 
 ```
