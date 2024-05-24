@@ -107,7 +107,6 @@ aws configure --profile
 
 ```
 
-```markdown
 <details>
   <summary>Markdown</summary>
 
@@ -116,4 +115,3 @@ aws configure --profile
 -  <kbd>[Markdown Table Generator](https://binarytree.dev/md_table_generator)</kbd>
 
 </details>
-```
