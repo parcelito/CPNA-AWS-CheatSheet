@@ -108,7 +108,7 @@ aws configure --profile
 ```
 
 <details>
-  <summary>Markdown</summary>
+  <summary>Desplegable</summary>
 
 - <kbd>
 
@@ -124,6 +124,7 @@ mv terraform /usr/local/bin/
 ```
 </kbd>
 -  <kbd>
+
 ## Despliegue Terraform Linux
 
 > [!Nota]
