@@ -13,7 +13,7 @@ mv terraform /usr/local/bin/
 ```
 ## Despliegue Terraform Linux
 
-> [!Nota]
+> [!Note]
 > Todos nuestros laboratorios requieren un usuario administrador para poder desplegar los diferentes componentes
 ```bash
 terraform init
@@ -37,7 +37,7 @@ Default output format
 ```
 <details>
   <summary>Ejemplo:</summary>
-  
+
   <kbd>![alt text](image.png)</kbd>
 
 </details>
@@ -94,9 +94,10 @@ aws iam get-user
 
 </details>
 
-
+# Enumeración manual de IAM
+## Enumerando usuarios
 ```bash
-
+aws iam list-users
 ```
 ```bash
 
