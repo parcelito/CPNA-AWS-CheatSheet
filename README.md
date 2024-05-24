@@ -47,11 +47,13 @@ Modificar el archivo:
 <table><tr><td>config</td></tr></table>
 
 Ejemplo:
-![alt text](image-2.png)
-
+![alt text](image-1.png)
+## Estructura comandos AWS CLI
 ```bash
-
+aws <comando o servicio> <Sub-Comando> [Opciones y parámetros]
 ```
+Ejemplo:
+![alt text](image-2.png)
 ```bash
 
 ```
