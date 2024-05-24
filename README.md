@@ -54,12 +54,20 @@ aws <comando o servicio> <Sub-Comando> [Opciones y parámetros]
 ```
 Ejemplo:
 ![alt text](image-2.png)
+## El whoami de AWS
+### Opción 1
 ```bash
-
+aws sts get-caller-identity
 ```
+Ejemplo:
+![alt text](image-3.png)
+### Opción 2 
+> Requiere privilegios iam:GetUser
 ```bash
-
+aws iam get-user
 ```
+Ejemplo:
+![alt text](image-4.png)
 ```bash
 
 ```
