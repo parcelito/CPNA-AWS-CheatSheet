@@ -244,69 +244,70 @@ aws iam list-attached-role-policies --role-name Rol
 
 </details>
 
-### Enumerando
+### Enumerando los nombres de las políticas en línea incrustadas a un rol especifico.
 ```bash
-
+aws iam list-role-policies --role-name Rol
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-18.png)</kbd>
 
 </details>
 
-### Enumerando
+### Enumerando información de un rol especifico.
 ```bash
-
+aws iam get-role --role-name Rol
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-19.png)</kbd>
 
 </details>
 
-### Enumerando
+## Enumerando Políticas
+### Enumerando todas las políticas de IAM
 ```bash
-
+aws iam list-policies
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-20.png)</kbd>
 
 </details>
 
-### Enumerando
+### Enumerando información de una política especifica.
 ```bash
-
+>aws iam get-policy --policy-arn arn:aws:iam::123456789:policy/ejemplo
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-21.png)</kbd>
 
 </details>
 
-### Enumerando
+### Enumerando información sobre las versiones de una política especifica.
 ```bash
-
+aws iam list-policy-versions --policy-arn arn:aws:iam::123456789:policy/ejemplo
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-22.png)</kbd>
 
 </details>
 
-### Enumerando
+### Enumerando información sobre una política especifica mediante la versión de la misma.
 ```bash
-
+aws iam get-policy-version --policy-arn arn:aws:iam::123456789:policy/ejemplo --version-id v1
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-23.png)</kbd>
 
 </details>
 
