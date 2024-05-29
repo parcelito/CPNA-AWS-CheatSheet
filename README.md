@@ -38,7 +38,7 @@ Default output format
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image.png)</kbd>
+  <kbd>![alt text](Imagenes/image.png)</kbd>
 
 </details>
 
@@ -54,7 +54,7 @@ Modificar el archivo:
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-1.png)</kbd>
+  <kbd>![alt text](Imagenes/image-1.png)</kbd>
 
 </details>
 
@@ -65,7 +65,7 @@ aws <comando o servicio> <Sub-Comando> [Opciones y parámetros]
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-2.png)</kbd>
+  <kbd>![alt text](Imagenes/image-2.png)</kbd>
 
 </details>
 
@@ -77,7 +77,7 @@ aws sts get-caller-identity
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-3.png)</kbd>
+  <kbd>![alt text](Imagenes/image-3.png)</kbd>
 
 </details>
 
@@ -92,7 +92,7 @@ aws iam get-user
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-4.png)</kbd>
+  <kbd>![alt text](Imagenes/image-4.png)</kbd>
 
 </details>
 
@@ -105,7 +105,7 @@ aws iam list-users
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-5.png)</kbd>
+  <kbd>![alt text](Imagenes/image-5.png)</kbd>
 
 </details>
 
@@ -117,7 +117,7 @@ aws iam list-groups-for-user --user-name Usuario
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-6.png)</kbd>
+  <kbd>![alt text](Imagenes/image-6.png)</kbd>
 
 </details>
 
@@ -128,7 +128,7 @@ aws iam list-ssh-public-keys --user-name Usuario
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-7.png)</kbd>
+  <kbd>![alt text](Imagenes/image-7.png)</kbd>
 
 </details>
 
@@ -138,7 +138,7 @@ aws iam get-ssh-public-key --user-name Usuario -- encoding PEM --ssh-public-key-
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-8.png)</kbd>
+  <kbd>![alt text](Imagenes/image-8.png)</kbd>
 
 </details>
 
@@ -149,7 +149,7 @@ aws iam list-signing-certificates --user-name Usuario
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-9.png)</kbd>
+  <kbd>![alt text](Imagenes/image-9.png)</kbd>
 
 </details>
 
@@ -161,7 +161,7 @@ aws iam list-virtual-mfa-devices
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-10.png)</kbd>
+  <kbd>![alt text](Imagenes/image-10.png)</kbd>
 
 </details>
 
@@ -172,7 +172,7 @@ aws iam list-attached-user-policies --user-name Usuario
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-11.png)</kbd>
+  <kbd>![alt text](Imagenes/image-11.png)</kbd>
 
 </details>
 
@@ -183,7 +183,7 @@ aws iam list-user-policies --user-name Usuario
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-12.png)</kbd>
+  <kbd>![alt text](Imagenes/image-12.png)</kbd>
 
 </details>
 
@@ -195,7 +195,7 @@ aws iam list-groups
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-13.png)</kbd>
+  <kbd>![alt text](Imagenes/image-13.png)</kbd>
 
 </details>
 
@@ -206,7 +206,7 @@ aws iam list-attached-group-policies --group-name Grupo
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd>![alt text](image-14.png)</kbd>
+  <kbd>![alt text](Imagenes/image-14.png)</kbd>
 
 </details>
 
