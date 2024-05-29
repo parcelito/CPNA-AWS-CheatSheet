@@ -153,9 +153,18 @@ aws iam list-signing-certificates --user-name Usuario
 
 </details>
 
-```bash
+### Enumerando dispositivos MFA virtuales de la cuenta de AWS
 
+```bash
+aws iam list-virtual-mfa-devices
 ```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-10.png)</kbd>
+
+</details>
+
 ```bash
 
 ```
