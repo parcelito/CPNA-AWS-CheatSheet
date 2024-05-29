@@ -165,9 +165,17 @@ aws iam list-virtual-mfa-devices
 
 </details>
 
+### Enumerando politicas gestionadas aplicadas a un usuario especifico
 ```bash
-
+aws iam list-attached-user-policies --user-name Usuario
 ```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-11.png)</kbd>
+
+</details>
+
 ```bash
 
 ```
