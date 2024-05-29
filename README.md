@@ -233,7 +233,7 @@ aws iam list-roles
 
 </details>
 
-### Enumerando todas las políticas gestionadas que se adjuntan a un rol especificado.
+### Enumerando todas las políticas gestionadas que se adjuntan a un rol especificado
 ```bash
 aws iam list-attached-role-policies --role-name Rol
 ```
@@ -244,7 +244,7 @@ aws iam list-attached-role-policies --role-name Rol
 
 </details>
 
-### Enumerando los nombres de las políticas en línea incrustadas a un rol especifico.
+### Enumerando los nombres de las políticas en línea incrustadas a un rol especifico
 ```bash
 aws iam list-role-policies --role-name Rol
 ```
@@ -255,7 +255,7 @@ aws iam list-role-policies --role-name Rol
 
 </details>
 
-### Enumerando información de un rol especifico.
+### Enumerando información de un rol especifico
 ```bash
 aws iam get-role --role-name Rol
 ```
@@ -278,7 +278,7 @@ aws iam list-policies
 
 </details>
 
-### Enumerando información de una política especifica.
+### Enumerando información de una política especifica
 ```bash
 >aws iam get-policy --policy-arn arn:aws:iam::123456789:policy/ejemplo
 ```
@@ -289,7 +289,7 @@ aws iam list-policies
 
 </details>
 
-### Enumerando información sobre las versiones de una política especifica.
+### Enumerando información sobre las versiones de una política especifica
 ```bash
 aws iam list-policy-versions --policy-arn arn:aws:iam::123456789:policy/ejemplo
 ```
@@ -300,7 +300,7 @@ aws iam list-policy-versions --policy-arn arn:aws:iam::123456789:policy/ejemplo
 
 </details>
 
-### Enumerando información sobre una política especifica mediante la versión de la misma.
+### Enumerando información sobre una política especifica mediante la versión de la misma
 ```bash
 aws iam get-policy-version --policy-arn arn:aws:iam::123456789:policy/ejemplo --version-id v1
 ```
@@ -311,6 +311,24 @@ aws iam get-policy-version --policy-arn arn:aws:iam::123456789:policy/ejemplo --
 
 </details>
 
+# Enumeración Automatizada mediante fuerza bruta
+> [!Note]
+> Es una herramienta ruidosa generará una tonelada de registros de CloudTrail puede ser facil que el Blue Team se de cuenta de la enumeración.
+> Es necesario evaluar si correr el riesgo con esta herramienta por lo ruidosa que es.
+## Herramientas
+### Enumerate-iam
+https://github.com/andresriancho/enumerate-iam
+
+#### Instalación
+```bash
+git clone git@github.com:andresriancho/enumerate-iam.git
+```
+```bash
+cd enumerate-iam/
+```
+```bash
+pip install -r requirements.txt
+```
 ### Enumerando
 ```bash
 
