@@ -97,7 +97,7 @@ aws iam get-user
 </details>
 
 # Enumeración manual de IAM
-## Enumerando usuarios
+## Enumerando Usuarios
 ### Enumerando todos los usuarios exitentes en la cuenta AWS 
 ```bash
 aws iam list-users
@@ -165,7 +165,7 @@ aws iam list-virtual-mfa-devices
 
 </details>
 
-### Enumerando politicas gestionadas aplicadas a un usuario especifico
+### Enumerando políticas gestionadas adjuntas a un usuario especifico
 ```bash
 aws iam list-attached-user-policies --user-name Usuario
 ```
@@ -176,12 +176,282 @@ aws iam list-attached-user-policies --user-name Usuario
 
 </details>
 
+### Enumerando políticas en linea incrustadas a un usuario especifico
+```bash
+aws iam list-user-policies --user-name Usuario
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-12.png)</kbd>
+
+</details>
+
+## Enumerando Grupos
+### Enumerando todos los grupos 
+```bash
+aws iam list-groups
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-13.png)</kbd>
+
+</details>
+
+### Enumerando políticas adjuntas a un grupo especifico
+```bash
+aws iam list-attached-group-policies --group-name Grupo
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd>![alt text](image-14.png)</kbd>
+
+</details>
+
+### Enumerando
 ```bash
 
 ```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
 ```bash
 
 ```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
+### Enumerando
+```bash
+
+```
+<details>
+  <summary>Ejemplo:</summary>
+
+  <kbd></kbd>
+
+</details>
+
 ```bash
 
 ```
