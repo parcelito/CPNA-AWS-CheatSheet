@@ -329,14 +329,14 @@ cd enumerate-iam/
 ```bash
 pip install -r requirements.txt
 ```
-### Enumerando
+### Enumeración automatizada con Enumerate-iam
 ```bash
-
+enumerate-iam.py --access-key AKIA... --secret-key StF0q... –-session-token zxcvb... -–region us-east-2
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-24.png)</kbd>
 
 </details>
 
