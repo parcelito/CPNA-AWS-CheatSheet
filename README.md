@@ -319,7 +319,7 @@ aws iam get-policy-version --policy-arn arn:aws:iam::123456789:policy/ejemplo --
 ### Enumerate-iam
 https://github.com/andresriancho/enumerate-iam
 
-#### Instalación
+### Instalación
 ```bash
 git clone git@github.com:andresriancho/enumerate-iam.git
 ```
