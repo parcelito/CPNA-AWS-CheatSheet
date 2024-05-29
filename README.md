@@ -233,15 +233,14 @@ aws iam list-roles
 
 </details>
 
-
-### Enumerando
+### Enumerando todas las políticas gestionadas que se adjuntan a un rol especificado.
 ```bash
-
+aws iam list-attached-role-policies --role-name Rol
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-17.png)</kbd>
 
 </details>
 
