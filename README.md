@@ -210,27 +210,29 @@ aws iam list-attached-group-policies --group-name Grupo
 
 </details>
 
-### Enumerando
+### Enumerando nombres de las políticas en línea incrustadas a un grupo especifico
 ```bash
-
+aws iam list-group-policies --group-name Grupo
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-15.png)</kbd>
 
 </details>
 
-### Enumerando
+## Enumerando Roles
+### Enumerando todos los roles
 ```bash
-
+aws iam list-roles
 ```
 <details>
   <summary>Ejemplo:</summary>
 
-  <kbd></kbd>
+  <kbd>![alt text](Imagenes/image-16.png)</kbd>
 
 </details>
+
 
 ### Enumerando
 ```bash
